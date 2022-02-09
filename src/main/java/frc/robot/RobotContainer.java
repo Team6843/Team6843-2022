@@ -4,14 +4,16 @@
 
 package frc.robot;
 
-import edu.wpi.first.wpilibj.XboxController;
+//import edu.wpi.first.wpilibj.XboxController;
+import edu.wpi.first.wpilibj.PS4Controller;
 import frc.robot.commands.SwerveDriveCommand;
 import frc.robot.subsystems.SwerveDriveTrain;
 
 /** The structure of the robot (including subsystems, commands, and button mappings) should be declared here */
 public class RobotContainer 
 {
-    private final XboxController controller = new XboxController(0);
+    //private final XboxController controller = new XboxController(0);
+    private final PS4Controller controller = new PS4Controller(0);
 
     private final SwerveDriveTrain driveTrain = new SwerveDriveTrain();
 
